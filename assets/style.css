@@ -1,0 +1,20 @@
+h1{
+    text-align:center;
+}
+#numberToGuess{
+    float:left;
+    Font-size:42px;
+    width: 30vw;
+}
+#numberGuessed{
+    float:right;
+    font-size: 42px;
+    width:30vw;
+}
+.floatbreak{
+    clear:both;
+}
+.crystalformat{
+    height:300px;
+    width:300px;
+}

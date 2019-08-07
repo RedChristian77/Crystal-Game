@@ -1,20 +1,30 @@
-h1{
+#header{
     text-align:center;
+    width:100%;
+    background-color:rebeccapurple;
+    justify-content: center;
 }
-#numberToGuess{
+div{
+    width:100%;
+}
+#numberToGuessDiv{
     float:left;
     Font-size:42px;
-    width: 30vw;
+    width: 30%;
+    height:100px;
 }
 #numberGuessed{
     float:right;
     font-size: 42px;
-    width:30vw;
+    width:30%;
+    height:100px;
 }
 .floatbreak{
     clear:both;
 }
-.crystalformat{
-    height:300px;
-    width:300px;
+#crystals{
+    align-content:center;
+    margin:auto;
+    width:80%;
+    height:200px;
 }

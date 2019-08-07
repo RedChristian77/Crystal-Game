@@ -9,13 +9,14 @@
 <body>
     <div id="header"><h1>Crystal Game</h1></div>
     <p>
-        <div id="numberToGuess"></div>
-        <div id="numberGuessed"></div>
+        <div id="numberToGuessDiv">Number to Guess:<span id=valueToGuess> 0 </span></div>
+        <div id="numberGuessed">Current Number: <span id=valueCurrentGuess> 0</span></div>
     </p>
     <p class="floatbreak">
-        <div class="crystals">
+        <div id="crystals">
             <!-- crystals go here -->
         </div>
     </p>
+    <script src="assets/game.js"></script>
 </body>
 </html>

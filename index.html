@@ -5,18 +5,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Crystal Game</title>
+    <link rel="stylesheet" type="text/css" href="assets/style.css">
 </head>
 <body>
     <div id="header"><h1>Crystal Game</h1></div>
-    <p>
+    <section class="boxes">
         <div id="numberToGuessDiv">Number to Guess:<span id=valueToGuess> 0 </span></div>
         <div id="numberGuessed">Current Number: <span id=valueCurrentGuess> 0</span></div>
-    </p>
+    </section>
     <p class="floatbreak">
         <div id="crystals">
             <!-- crystals go here -->
         </div>
     </p>
+    <div class="floatbreak"></div>
+    <div id="wincounter"><h3>Win Count:<span id ="wincounterID"> 0</span></h3></div>
+    <br>
+    <div id="gamemention"><h1> </h1></div>
     <script src="assets/game.js"></script>
 </body>
 </html>

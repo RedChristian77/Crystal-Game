@@ -1,11 +1,11 @@
+*{
+    box-sizing: border-box;
+}
 #header{
     text-align:center;
     width:100%;
     background-color:rebeccapurple;
     justify-content: center;
-}
-div{
-    width:100%;
 }
 #numberToGuessDiv{
     float:left;
